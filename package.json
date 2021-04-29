@@ -1,0 +1,35 @@
+{
+  "name": "ticgit",
+  "version": "1.0.0",
+  "description": "Note: the original TicGit author has pulled all the TicGit-ng changes into his repository, creating a potentially confusing situation. The schacon TicGit repo, this one, is not consistently maintained. For up to date TicGit-ng info and code, check the canonical TicGit-ng repository at  \r https://github.com/jeffWelling/ticgit",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schacon/ticgit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schacon/ticgit/issues"
+  },
+  "homepage": "https://github.com/schacon/ticgit#readme",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "parse-error": "^0.2.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.2",
+    "validator": "^13.6.0"
+  }
+}
